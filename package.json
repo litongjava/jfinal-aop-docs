@@ -1,0 +1,26 @@
+{
+  "name": "jfinal-aop-docs",
+  "version": "1.0.0",
+  "description": "jfinal-aop 使用文档：拦截器、依赖注入、注解与实现原理",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.34.9",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:check": "node scripts/check-links.mjs"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/plugin-seo": "2.0.0-rc.121",
+    "@vuepress/plugin-sitemap": "2.0.0-rc.121",
+    "@vuepress/theme-default": "2.0.0-rc.121",
+    "sass-embedded": "^1.97.1",
+    "vue": "^3.5.26",
+    "vuepress": "2.0.0-rc.26",
+    "vuepress-plugin-search-pro": "2.0.0-rc.59"
+  }
+}

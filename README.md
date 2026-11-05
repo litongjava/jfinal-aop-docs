@@ -21,3 +21,7 @@ pnpm docs:build
 ```
 
 构建产物位于 `docs/.vuepress/dist`。
+
+## 部署
+
+推送到 `main` 分支后，Cloudflare Pages 会自动构建并发布。

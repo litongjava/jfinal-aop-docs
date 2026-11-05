@@ -16,11 +16,10 @@ pnpm docs:dev
 ## 构建
 
 ```bash
-pnpm docs:check
 pnpm docs:build
 ```
 
-构建产物位于 `docs/.vuepress/dist`。
+构建产物位于 `docs/.vitepress/dist`。
 
 ## 部署
 

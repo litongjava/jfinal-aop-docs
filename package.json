@@ -9,18 +9,11 @@
     "node": ">=20"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "docs:check": "node scripts/check-links.mjs"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.26",
-    "@vuepress/plugin-seo": "2.0.0-rc.121",
-    "@vuepress/plugin-sitemap": "2.0.0-rc.121",
-    "@vuepress/theme-default": "2.0.0-rc.121",
-    "sass-embedded": "^1.97.1",
-    "vue": "^3.5.26",
-    "vuepress": "2.0.0-rc.26",
-    "vuepress-plugin-search-pro": "2.0.0-rc.59"
+    "vitepress": "^1.6.4"
   }
 }

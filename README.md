@@ -24,3 +24,13 @@ pnpm docs:build
 ## 部署
 
 推送到 `main` 分支后，Cloudflare Pages 会自动构建并发布。
+
+## AI 语料
+
+构建时生成，供 AI 检索和问答使用：
+
+- [llms.txt](https://jfinal-aop.io.nexus/llms.txt)：页面目录
+- [llms-full.txt](https://jfinal-aop.io.nexus/llms-full.txt)：完整正文
+- [ai/index.json](https://jfinal-aop.io.nexus/ai/index.json)：页面元数据
+- [ai/chunks.jsonl](https://jfinal-aop.io.nexus/ai/chunks.jsonl)：按标题分段的语料
+- `/ai/pages/<路径>.md`：每页的 Markdown 原文
